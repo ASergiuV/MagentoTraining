@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Evozon_Modul>
+            <version>1.0.0</version>
+        </Evozon_Modul>
+    </modules>
+    <frontend>
+        <routers>
+            <modul>
+                <use>standard</use>
+                <args>
+                    <module>Evozon_Modul</module>
+                    <frontName>modul</frontName>
+                </args>
+            </modul>
+        </routers>
+    </frontend>
+</config>
