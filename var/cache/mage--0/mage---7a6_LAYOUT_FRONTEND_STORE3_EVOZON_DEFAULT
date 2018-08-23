@@ -5078,21 +5078,16 @@
       </action>
    </reference>
 </customer_logged_in>
-<catalog_product_view>
-   <reference name="content">
-      <block type="evozon_modul/first" name="firstblock" template="theme/first.phtml"/>
-   </reference>
-</catalog_product_view>
-<catalog_category_default>
-   <reference name="content">
-      <block type="evozon_modul/first" name="firstblock" template="theme/first.phtml"/>
-   </reference>
-</catalog_category_default>
 <catalog_category_layered>
    <reference name="content">
       <block type="evozon_modul/first" name="firstblock" template="theme/first.phtml"/>
    </reference>
 </catalog_category_layered>
+<catalog_category_default>
+   <reference name="content">
+      <block type="evozon_modul/second" name="secondblock" template="theme/second.phtml"/>
+   </reference>
+</catalog_category_default>
 <moneybookers_processing_payment>
    <reference name="root">
       <action method="setTemplate">

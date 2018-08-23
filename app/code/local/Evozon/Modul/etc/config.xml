@@ -17,7 +17,7 @@
             <modul>
                 <use>standard</use>
                 <args>
-                    <module>Evozon_Modul</module>
+                    <module>evozon_modul</module>
                     <frontName>modul</frontName>
                 </args>
             </modul>

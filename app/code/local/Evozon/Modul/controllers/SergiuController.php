@@ -65,4 +65,10 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
         Mage::log(__METHOD__);
         Mage::log("enters here", null, 'sergiu.log');
     }
+
+    public function cleanAction()
+    {
+        Mage::app()->cleanCache();
+        echo "Mage::app()->cleanCache() called";
+    }
 }

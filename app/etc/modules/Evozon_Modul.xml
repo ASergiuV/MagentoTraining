@@ -1,8 +1,8 @@
 <config>
     <modules>
-        <Evozon_Modul>
+        <evozon_modul>
             <active>true</active>
             <codePool>local</codePool>
-        </Evozon_Modul>
+        </evozon_modul>
     </modules>
 </config>
