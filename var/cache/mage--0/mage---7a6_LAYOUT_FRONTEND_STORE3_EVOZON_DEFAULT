@@ -5088,6 +5088,11 @@
       <block type="evozon_modul/second" name="secondblock" template="theme/second.phtml"/>
    </reference>
 </catalog_category_default>
+<modul_sergiu_display>
+   <reference name="content">
+      <block type="third/third" name="third" template="theme/third.phtml"/>
+   </reference>
+</modul_sergiu_display>
 <moneybookers_processing_payment>
    <reference name="root">
       <action method="setTemplate">

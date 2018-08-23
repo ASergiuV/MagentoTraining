@@ -5,6 +5,9 @@
             <evozon_modul>
                 <class>Evozon_Modul_Block</class>
             </evozon_modul>
+            <third>
+                <class>Evozon_Modul_Block</class>
+            </third>
         </blocks>
     </global>
     <modules>
@@ -27,6 +30,9 @@
                 <evozon_modul>
                     <file>theme/evozon_modul.xml</file>
                 </evozon_modul>
+                <third>
+                    <file>theme/third.xml</file>
+                </third>
             </updates>
         </layout>
     </frontend>

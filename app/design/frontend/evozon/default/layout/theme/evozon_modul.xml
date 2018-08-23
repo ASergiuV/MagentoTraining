@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <catalog_category_layered>
-    <reference name="content">
-    <block type="evozon_modul/first" name="firstblock" template="theme/first.phtml"/>
-    </reference>
+        <reference name="content">
+            <block type="evozon_modul/first" name="firstblock" template="theme/first.phtml"/>
+        </reference>
     </catalog_category_layered>
 
     <catalog_category_default>

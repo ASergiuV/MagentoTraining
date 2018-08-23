@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09ba6a3f-2850-4fe9-9475-29e4d55b4b72" name="Default" comment="" />
+    <list default="true" id="09ba6a3f-2850-4fe9-9475-29e4d55b4b72" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/evozon_modul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/evozon_modul.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,43 +15,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SergiuController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SergiuController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+            <state relative-caret-position="176">
+              <caret line="19" column="21" selection-end-line="77" />
               <folding>
                 <element signature="e#99#145#0#PHP" expanded="true" />
                 <element signature="e#230#282#0#PHP" expanded="true" />
                 <element signature="e#395#432#0#PHP" expanded="true" />
-                <element signature="e#503#597#0#PHP" expanded="true" />
+                <element signature="e#700#794#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evozon_modul.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="evozon_modul.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/evozon_modul.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/catalog.xml">
+      <file leaf-file-name="Third.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Third.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="176">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="e#169#202#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog_msrp.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/catalog_msrp.xml">
+      <file leaf-file-name="third.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/third.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969" />
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -60,41 +78,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="third.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/third.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/CatalogRule/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/first.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="First.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/First.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="33" lean-forward="true" selection-end-line="18" />
-              <folding>
-                <element signature="e#168#201#0#PHP" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-3762" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Second.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Second.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="286">
+              <caret line="18" lean-forward="true" selection-end-line="18" />
               <folding>
                 <element signature="e#168#201#0#PHP" expanded="true" />
               </folding>
@@ -106,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/second.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" lean-forward="true" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -143,13 +147,16 @@
         <option value="$PROJECT_DIR$/app/design/frontend/Evozon/theme/layout/theme/evozon_modul.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/evozon/theme/etc/theme.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/evozon/theme/layout/theme/evozon_modul.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php" />
         <option value="$PROJECT_DIR$/app/etc/modules/Evozon_Modul.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Second.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/second.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/evozon_modul.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/layout/catalog.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Third.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/third.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/evozon_modul.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/third.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php" />
       </list>
     </option>
   </component>
@@ -185,6 +192,66 @@
               <item name="magento" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Evozon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Evozon" type="462c0819:PsiDirectoryNode" />
+              <item name="Modul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Evozon" type="462c0819:PsiDirectoryNode" />
+              <item name="Modul" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Evozon" type="462c0819:PsiDirectoryNode" />
+              <item name="Modul" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Evozon" type="462c0819:PsiDirectoryNode" />
+              <item name="Modul" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento" type="b2602c69:ProjectViewProjectNode" />
@@ -267,33 +334,6 @@
               <item name="default" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="rwd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="rwd" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="rwd" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento" type="b2602c69:ProjectViewProjectNode" />
@@ -353,12 +393,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534763684445</updated>
       <workItem from="1534763690963" duration="952000" />
-      <workItem from="1534853762339" duration="18043000" />
+      <workItem from="1534853762339" duration="19427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18995000" />
+    <option name="totallyTimeSpent" value="20379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -392,34 +432,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Api/Model/Resource/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Simplexml/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="184" column="41" lean-forward="true" selection-start-line="184" selection-start-column="41" selection-end-line="184" selection-end-column="41" />
-          <folding>
-            <element signature="e#951#1153#0#PHP" expanded="true" />
-            <element signature="e#1217#1517#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_8C5E5081543E4A312EC093169978F9A3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -592,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Second.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#168#201#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/first.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -609,42 +611,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/second.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/etc/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="e#99#145#0#PHP" expanded="true" />
-            <element signature="e#230#282#0#PHP" expanded="true" />
-            <element signature="e#395#432#0#PHP" expanded="true" />
-            <element signature="e#503#597#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/catalog_msrp.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -658,10 +626,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Second.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" lean-forward="true" selection-end-line="18" />
+          <folding>
+            <element signature="e#168#201#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/second.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/third.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/etc/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/evozon_modul.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/CatalogRule/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3762" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Third.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#169#202#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/third.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="21" selection-end-line="77" />
+          <folding>
+            <element signature="e#99#145#0#PHP" expanded="true" />
+            <element signature="e#230#282#0#PHP" expanded="true" />
+            <element signature="e#395#432#0#PHP" expanded="true" />
+            <element signature="e#700#794#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

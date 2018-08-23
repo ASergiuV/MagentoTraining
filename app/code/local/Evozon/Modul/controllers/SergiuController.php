@@ -17,8 +17,9 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
      */
     public function indexAction()
     {
-        $this->loadLayout();
-        $this->renderLayout();
+        echo "index";
+//        $this->loadLayout();
+//        $this->renderLayout();
     }
 
 
@@ -27,7 +28,9 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
      */
     public function displayAction()
     {
-        echo "Sergiu did this!";
+        $this->loadLayout();
+        $this->renderLayout();
+
     }
 
     /**
