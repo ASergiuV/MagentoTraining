@@ -42,4 +42,4 @@
 !/var/package/*.xml
 
 # other files
-.idea
+.idea/
