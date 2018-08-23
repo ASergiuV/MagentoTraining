@@ -17,7 +17,17 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
      */
     public function indexAction()
     {
-        echo "INDEX!!!!!!!!!!!";
+        $this->loadLayout();
+        $this->renderLayout();
+    }
+
+
+    /**
+     *echoes who did this
+     */
+    public function displayAction()
+    {
+        echo "Sergiu did this!";
     }
 
     /**
@@ -39,7 +49,11 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
      */
     public function throwAction()
     {
-        Mage::throwException('cacaException');
+        try {
+            Mage::throwException('macaException');
+        } catch (Exception $e) {
+            Mage::logException($e);
+        }
     }
 
     /**
@@ -47,6 +61,8 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
      */
     public function thirdAction()
     {
-        $this->_redirect('*/*/index');
+        echo "ERRRRRORRRRRR!!!";
+        Mage::log(__METHOD__);
+        Mage::log("enters here", null, 'sergiu.log');
     }
 }
