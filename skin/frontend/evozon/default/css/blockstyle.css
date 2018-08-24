@@ -1,0 +1,12 @@
+#productsergiu {
+    font-size: 69px;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sergiucontainer {
+    background-image: url("http://tb.ziareromania.ro/De-Sf--Valentin--ofera-i-iubitei-un-castravete-in-forma-de-inima-/33668b264ea006007/327/0/1/70/De-Sf--Valentin--ofera-i-iubitei-un-castravete-in-forma-de-inima-.jpg");
+    height: 250px;
+    width: 500px;
+}

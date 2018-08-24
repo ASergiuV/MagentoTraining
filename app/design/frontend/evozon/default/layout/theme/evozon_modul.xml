@@ -11,4 +11,15 @@
             <block type="evozon_modul/second" name="secondblock" template="theme/second.phtml"/>
         </reference>
     </catalog_category_default>
+
+    <catalog_product_view>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/blockstyle.css</stylesheet>
+            </action>
+        </reference>
+        <reference name="product.info">
+            <block type="evozon_modul/cssblock" name="cssblock" template="theme/first.phtml"/>
+        </reference>
+    </catalog_product_view>
 </layout>
