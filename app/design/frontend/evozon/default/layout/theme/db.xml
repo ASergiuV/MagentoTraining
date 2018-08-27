@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+    <modul_sergiu_display>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="evozon_modul_db/db" name="db_example" template="theme/dbtemplate.phtml"/>
+        </reference>
+    </modul_sergiu_display>
+</layout>

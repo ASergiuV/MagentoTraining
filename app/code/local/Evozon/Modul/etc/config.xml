@@ -1,20 +1,37 @@
 <?xml version="1.0"?>
 <config>
-    <global>
-        <blocks>
-            <evozon_modul>
-                <class>Evozon_Modul_Block</class>
-            </evozon_modul>
-            <third>
-                <class>Evozon_Modul_Block</class>
-            </third>
-        </blocks>
-    </global>
     <modules>
         <evozon_modul>
             <version>1.0.0</version>
         </evozon_modul>
     </modules>
+    <global>
+        <models>
+            <evozon_modul>
+                <class>Evozon_Modul_Model</class>
+                <resourceModel>evozon_modul_resource</resourceModel>
+            </evozon_modul>
+            <evozon_modul_resource>
+                <class>Evozon_Modul_Model_Resource</class>
+                <entities>
+                    <modelu>
+                        <table>tabela_modelumeu</table>
+                    </modelu>
+                </entities>
+            </evozon_modul_resource>
+        </models>
+        <blocks>
+            <!--<evozon_modul>-->
+            <!--<class>Evozon_Modul_Block</class>-->
+            <!--</evozon_modul>-->
+            <!--<third>-->
+            <!--<class>Evozon_Modul_Block</class>-->
+            <!--</third>-->
+            <evozon_modul_db>
+                <class>Evozon_Modul_Block</class>
+            </evozon_modul_db>
+        </blocks>
+    </global>
     <frontend>
         <routers>
             <modul>
@@ -27,12 +44,15 @@
         </routers>
         <layout>
             <updates>
-                <evozon_modul>
-                    <file>theme/evozon_modul.xml</file>
-                </evozon_modul>
-                <third>
-                    <file>theme/third.xml</file>
-                </third>
+                <!--<evozon_modul>-->
+                <!--<file>theme/evozon_modul.xml</file>-->
+                <!--</evozon_modul>-->
+                <!--<third>-->
+                <!--<file>theme/third.xml</file>-->
+                <!--</third>-->
+                <evozon_modul_db>
+                    <file>theme/db.xml</file>
+                </evozon_modul_db>
             </updates>
         </layout>
     </frontend>

@@ -24,13 +24,16 @@ class Evozon_Modul_SergiuController extends Mage_Core_Controller_Front_Action
 
 
     /**
-     *echoes who did this
+     *
      */
     public function displayAction()
     {
+        echo "Dsadsads" . PHP_EOL;
+//        echo json_encode(Mage::getBlockSingleton('evozon_modul/DbBlock')->getMessage());
         $this->loadLayout();
+        echo "csadsa" . PHP_EOL;
         $this->renderLayout();
-
+        echo "csadsadsdasdasdasads" . PHP_EOL;
     }
 
     /**

@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
-<layout version="0.1.0">
-    <modul_sergiu_display>
-        <reference name="content">
-            <block type="third/third" name="third" template="theme/third.phtml"/>
-        </reference>
-    </modul_sergiu_display>
-</layout>
+<!--<?xml version="1.0"?>-->
+<!--<layout version="0.1.0">-->
+<!--<modul_sergiu_display2>-->
+<!--<reference name="content">-->
+<!--<block type="third/third" name="third" template="theme/third.phtml"/>-->
+<!--</reference>-->
+<!--</modul_sergiu_display2>-->
+<!--</layout>-->

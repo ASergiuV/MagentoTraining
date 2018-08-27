@@ -1,0 +1,16 @@
+<?php echo "AM INTRAT IN TEMPLATE"; ?>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php $entities = $this->getMessage();
+    foreach ($entities as $entity): ?>
+        <tr>
+            <td><?php echo $entity->getModelumeu_name(); ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
