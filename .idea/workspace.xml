@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ba6a3f-2850-4fe9-9475-29e4d55b4b72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/Evozon/Modul/controllers/SergiuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/Evozon/Modul/etc/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/third.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/evozon/default/layout/theme/third.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/first.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/first.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/second.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/second.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/third.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/third.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/dbtemplate.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/dbtemplate.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_LAYOUT_040DDFDDA103174EE2016ADE8C843EACE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_LAYOUT_040DDFDDA103174EE2016ADE8C843EACE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_az_Latn_AZ_country_AZ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_az_Latn_AZ_country_AZ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_BA_country_BA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_BA_country_BA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_month_gregorian_format_wide_8" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_month_gregorian_format_wide_8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_nametocurrency_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_nametocurrency_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_fil_PH_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_fil_PH_parentlocale_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_MN_country_MN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_MN_country_MN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_ms_Latn_MY_country_MY" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---internal-metadatas---7a6_Zend_LocaleC_ms_Latn_MY_country_MY" afterDir="false" />
@@ -27,8 +21,6 @@
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_az_Latn_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_az_Latn_parentlocale_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_BA_language_bs" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_BA_language_bs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_parentlocale_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencynumber_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencynumber_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencysymbol_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencysymbol_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_MN_language_mn" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_MN_language_mn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_parentlocale_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_ms_Latn_MY_language_ms" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_ms_Latn_MY_language_ms" afterDir="false" />
@@ -40,15 +32,9 @@
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_zh_Hant_HK_language_zh" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_zh_Hant_HK_language_zh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_zh_Hant_TW_language_zh" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_zh_Hant_TW_language_zh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_zh_Hant_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---internal-metadatas---7a6_Zend_LocaleC_zh_Hant_parentlocale_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---7a6_CONFIG_GLOBAL" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---7a6_CONFIG_GLOBAL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7a6_CONFIG_GLOBAL" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---internal-metadatas---7a6_CONFIG_GLOBAL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_az_Latn_AZ_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_az_Latn_AZ_parentlocale_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_BA_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_bs_Latn_BA_parentlocale_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencysymbol_RON" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencysymbol_RON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencysymbol_USD" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencysymbol_USD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencytoname_RON" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencytoname_RON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_nametocurrency_RON" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_nametocurrency_RON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_nametocurrency_USD" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_nametocurrency_USD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_MN_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_mn_Cyrl_MN_parentlocale_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_ms_Latn_MY_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_ms_Latn_MY_parentlocale_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_sr_Latn_RS_parentlocale_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_Zend_LocaleC_sr_Latn_RS_parentlocale_" afterDir="false" />
@@ -58,20 +44,15 @@
       <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_config_theme" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---internal-metadatas---7a6_config_theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7a6_CORE_CACHE_OPTIONS" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7a6_CORE_CACHE_OPTIONS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7a6_FOOTER_LOCALEEN_US" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7a6_FOOTER_LOCALEEN_US" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencytoregion_US" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_currencytoregion_US" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_ADMIN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_ADMIN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_CRONTAB" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_CRONTAB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_INSTALL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_DB_PDO_MYSQL_DDL_catalog_product_entity_1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_TRANSLATE_EN_US_ADMINHTML_0_DEFAULT_DEFAULT" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---internal-metadatas---7a6_TRANSLATE_EN_US_ADMINHTML_0_DEFAULT_DEFAULT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7a6_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7a6_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7a6_CONFIG_GLOBAL_ADMINHTML" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7a6_CONFIG_GLOBAL_ADMINHTML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7a6_CONFIG_GLOBAL_WEBSITES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---internal-metadatas---7a6_CONFIG_GLOBAL_WEBSITES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_STORE_ADMIN_CONFIG_CACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_STORE_ADMIN_CONFIG_CACHE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleC_de_time_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleC_de_time_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_am_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_am_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_pm_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_pm_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7a6_ADMINHTML_ACL_MENU_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7a6_ADMINHTML_ACL_MENU_CONFIG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES_ADMIN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES_ADMIN" afterDir="false" />
@@ -84,7 +65,6 @@
       <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES_FRENCH" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES_FRENCH" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES_GERMAN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_CONFIG_GLOBAL_STORES_GERMAN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_JAVASCRIPT_TRANSLATE_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_JAVASCRIPT_TRANSLATE_CONFIG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_time_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_time_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_days_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_days_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_month_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_month_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---7a6_ADMIN_NOTIFICATIONS_LASTCHECK" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---7a6_ADMIN_NOTIFICATIONS_LASTCHECK" afterDir="false" />
@@ -93,7 +73,6 @@
       <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_date_full" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_date_full" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_date_long" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleC_en_US_date_long" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_language_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_language_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_symbols_" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---7a6_Zend_LocaleL_en_US_symbols_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_APP_B1FB6E8F13287C01E5C05063633DDA4C" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_APP_B1FB6E8F13287C01E5C05063633DDA4C" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_APP_E4D52B98688947405EDE639E947EE03D" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_APP_E4D52B98688947405EDE639E947EE03D" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_Zend_LocaleC_af_ZA_country_ZA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_Zend_LocaleC_af_ZA_country_ZA" afterDir="false" />
@@ -169,7 +148,6 @@
       <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_Zend_LocaleC_uk_UA_country_UA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_Zend_LocaleC_uk_UA_country_UA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_Zend_LocaleC_vi_VN_country_VN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---7a6_Zend_LocaleC_vi_VN_country_VN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_APP_4E4ABDD8DC00C3DACB3C1597944A3B6C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_DB_PDO_MYSQL_DDL_eav_attribute_1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_DB_PDO_MYSQL_DDL_eav_attribute_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_Zend_LocaleC_af_ZA_language_af" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_Zend_LocaleC_af_ZA_language_af" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_Zend_LocaleC_ar_DZ_language_ar" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_Zend_LocaleC_ar_DZ_language_ar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_Zend_LocaleC_ar_EG_language_ar" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---7a6_Zend_LocaleC_ar_EG_language_ar" afterDir="false" />
@@ -404,8 +382,17 @@
       <file leaf-file-name="Db.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="21" selection-end-line="24" />
+            <state relative-caret-position="176">
+              <caret line="15" column="60" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -413,8 +400,8 @@
       <file leaf-file-name="dbtemplate.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/dbtemplate.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -792,12 +779,12 @@
       <updated>1534763684445</updated>
       <workItem from="1534763690963" duration="952000" />
       <workItem from="1534853762339" duration="24910000" />
-      <workItem from="1535362933060" duration="9502000" />
+      <workItem from="1535362933060" duration="10206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35364000" />
+    <option name="totallyTimeSpent" value="36068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -810,13 +797,13 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Database Console" weight="0.32962137" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15196894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15196894" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.3294509" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3294509" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -825,25 +812,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15196894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15196894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32962137" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3294509" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.3997773" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32962137" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3997773" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -855,13 +842,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Db.php</url>
-          <line>15</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
@@ -1031,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1168,15 +1141,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/evozon/default/template/theme/dbtemplate.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Evozon/Modul/Block/Db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="21" selection-end-line="24" />
+        <state relative-caret-position="176">
+          <caret line="15" column="60" selection-end-line="24" />
         </state>
       </provider>
     </entry>

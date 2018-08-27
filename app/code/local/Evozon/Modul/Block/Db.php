@@ -13,10 +13,10 @@ class Evozon_Modul_Block_Db extends Mage_Core_Block_Template
      */
     public function getMessage()
     {
-        $collection = Mage::getModel('evozon_modul/modelu');//->getCollection();
+        $collection = Mage::getModel('evozon_modul/modelu');
         $collection = $collection->getCollection();
-//        $collection->addFieldToSelect('*');
-//        $collection->addFieldToFilter('modelumeu_id', ['gt' => 3]);
+        $collection->addFieldToSelect('*');
+        $collection->addFieldToFilter('modelumeu_id', ['gt' => 3]);
         Mage::log((string)$collection->getSelect() . PHP_EOL, null, 'system.log');
 
         return $collection->getItems();

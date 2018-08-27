@@ -204,3 +204,7 @@
 2018-08-27T12:19:15+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /var/www/html/magento/app/design/frontend/evozon/default/template/theme/dbtemplate.phtml on line 10
 2018-08-27T12:20:57+00:00 DEBUG (7): SELECT `main_table`.* FROM `tabela_modelumeu` AS `main_table`
 
+2018-08-27T13:38:56+00:00 DEBUG (7): SELECT `main_table`.* FROM `tabela_modelumeu` AS `main_table`
+
+2018-08-27T13:39:25+00:00 DEBUG (7): SELECT `main_table`.* FROM `tabela_modelumeu` AS `main_table` WHERE (`modelumeu_id` > 3)
+
