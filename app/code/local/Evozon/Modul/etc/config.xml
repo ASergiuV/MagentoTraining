@@ -2,7 +2,7 @@
 <config>
     <modules>
         <evozon_modul>
-            <version>1.0.0</version>
+            <version>1.0.4</version>
         </evozon_modul>
     </modules>
     <global>
@@ -20,6 +20,24 @@
                 </entities>
             </evozon_modul_resource>
         </models>
+        <resources>
+            <evozon_modul_setup>
+                <setup>
+                    <module>evozon_modul</module>
+                    <class>Evozon_Modul_Model_Resource_Setup</class>
+                </setup>
+            </evozon_modul_setup>
+            <evozon_modul_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </evozon_modul_write>
+            <evozon_modul_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </evozon_modul_read>
+        </resources>
         <blocks>
             <evozon_modul>
                 <class>Evozon_Modul_Block</class>
@@ -30,6 +48,9 @@
             <evozon_modul_db>
                 <class>Evozon_Modul_Block</class>
             </evozon_modul_db>
+            <evozon_modul_banners>
+                <class>Evozon_Modul_Block</class>
+            </evozon_modul_banners>
         </blocks>
     </global>
     <frontend>
@@ -53,6 +74,9 @@
                 <evozon_modul_db>
                     <file>theme/db.xml</file>
                 </evozon_modul_db>
+                <evozon_modul_banners>
+                    <file>theme/banner.xml</file>
+                </evozon_modul_banners>
             </updates>
         </layout>
     </frontend>

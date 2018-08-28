@@ -1,0 +1,7 @@
+<div class="container" style="width: available; height: max-content">
+    <?php
+    $bannersForThisCategory = $this->getBanners(Mage::registry('current_category')->getId());
+    foreach ($bannersForThisCategory as $banner) :?>
+        <div style="background-color: cyan; color:red;size:20px;text-align: center;"><?php echo $banner->getText(); ?></div>
+    <?php endforeach; ?>
+</div>

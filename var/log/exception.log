@@ -226,3 +226,21 @@ Stack trace:
 #14 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
 #15 /var/www/html/magento/index.php(83): Mage::run('', 'store')
 #16 {main}
+2018-08-28T14:32:20+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Evozon_Modul_Block_Banner' in /var/www/html/magento/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('evozon_modul_ba...', Array)
+#2 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('evozon_modul_ba...', 'banner_example')
+#3 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('evozon_modul_ba...', 'banner_example')
+#4 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/magento/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /var/www/html/magento/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#13 /var/www/html/magento/index.php(83): Mage::run('', 'store')
+#14 {main}
