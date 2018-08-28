@@ -146,3 +146,83 @@ Stack trace:
 #12 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
 #13 /var/www/html/magento/index.php(83): Mage::run('', 'store')
 #14 {main}
+2018-08-28T06:55:12+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: simplexml_load_string(): Entity: line 9: parser error : Start tag expected, '&lt;' not found  in /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php on line 450' in /var/www/html/magento/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 [internal function]: mageCoreErrorHandler(2, 'simplexml_load_...', '/var/www/html/m...', 450, Array)
+#1 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(450): simplexml_load_string('\<!--\<\?xml versi...', 'Mage_Core_Model...')
+#2 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(275): Mage_Core_Model_Layout_Update->getFileLayoutUpdatesXml('frontend', 'evozon', 'default', '1')
+#3 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(347): Mage_Core_Model_Layout_Update->fetchFileLayoutUpdates()
+#4 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(246): Mage_Core_Model_Layout_Update->fetchPackageLayoutUpdates('default')
+#5 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(224): Mage_Core_Model_Layout_Update->merge('default')
+#6 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(306): Mage_Core_Model_Layout_Update->load()
+#7 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(61): Mage_Core_Controller_Varien_Action->loadLayoutUpdates()
+#8 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#9 /var/www/html/magento/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(549, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#10 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#11 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#12 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento/index.php(83): Mage::run('', 'store')
+#16 {main}
+2018-08-28T06:56:06+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: simplexml_load_string(): Entity: line 9: parser error : Start tag expected, '&lt;' not found  in /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php on line 450' in /var/www/html/magento/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 [internal function]: mageCoreErrorHandler(2, 'simplexml_load_...', '/var/www/html/m...', 450, Array)
+#1 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(450): simplexml_load_string('\<!--\<\?xml versi...', 'Mage_Core_Model...')
+#2 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(275): Mage_Core_Model_Layout_Update->getFileLayoutUpdatesXml('frontend', 'evozon', 'default', '1')
+#3 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(347): Mage_Core_Model_Layout_Update->fetchFileLayoutUpdates()
+#4 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(246): Mage_Core_Model_Layout_Update->fetchPackageLayoutUpdates('default')
+#5 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(224): Mage_Core_Model_Layout_Update->merge('default')
+#6 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(306): Mage_Core_Model_Layout_Update->load()
+#7 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(61): Mage_Core_Controller_Varien_Action->loadLayoutUpdates()
+#8 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#9 /var/www/html/magento/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(549, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#10 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#11 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#12 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento/index.php(83): Mage::run('', 'store')
+#16 {main}
+2018-08-28T06:56:08+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: simplexml_load_string(): Entity: line 9: parser error : Start tag expected, '&lt;' not found  in /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php on line 450' in /var/www/html/magento/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 [internal function]: mageCoreErrorHandler(2, 'simplexml_load_...', '/var/www/html/m...', 450, Array)
+#1 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(450): simplexml_load_string('\<!--\<\?xml versi...', 'Mage_Core_Model...')
+#2 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(275): Mage_Core_Model_Layout_Update->getFileLayoutUpdatesXml('frontend', 'evozon', 'default', '1')
+#3 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(347): Mage_Core_Model_Layout_Update->fetchFileLayoutUpdates()
+#4 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(246): Mage_Core_Model_Layout_Update->fetchPackageLayoutUpdates('default')
+#5 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(224): Mage_Core_Model_Layout_Update->merge('default')
+#6 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(306): Mage_Core_Model_Layout_Update->load()
+#7 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(61): Mage_Core_Controller_Varien_Action->loadLayoutUpdates()
+#8 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#9 /var/www/html/magento/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(549, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#10 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#11 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#12 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento/index.php(83): Mage::run('', 'store')
+#16 {main}
+2018-08-28T06:59:02+00:00 ERR (3): 
+exception 'Exception' with message 'Warning: simplexml_load_string(): Entity: line 9: parser error : Start tag expected, '&lt;' not found  in /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php on line 450' in /var/www/html/magento/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 [internal function]: mageCoreErrorHandler(2, 'simplexml_load_...', '/var/www/html/m...', 450, Array)
+#1 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(450): simplexml_load_string('\<!--\<\?xml versi...', 'Mage_Core_Model...')
+#2 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(275): Mage_Core_Model_Layout_Update->getFileLayoutUpdatesXml('frontend', 'evozon', 'default', '1')
+#3 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(347): Mage_Core_Model_Layout_Update->fetchFileLayoutUpdates()
+#4 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(246): Mage_Core_Model_Layout_Update->fetchPackageLayoutUpdates('default')
+#5 /var/www/html/magento/app/code/core/Mage/Core/Model/Layout/Update.php(224): Mage_Core_Model_Layout_Update->merge('default')
+#6 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(306): Mage_Core_Model_Layout_Update->load()
+#7 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(61): Mage_Core_Controller_Varien_Action->loadLayoutUpdates()
+#8 /var/www/html/magento/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#9 /var/www/html/magento/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(549, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#10 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#11 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#12 /var/www/html/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/magento/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/magento/index.php(83): Mage::run('', 'store')
+#16 {main}

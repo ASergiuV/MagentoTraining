@@ -208,3 +208,5 @@
 
 2018-08-27T13:39:25+00:00 DEBUG (7): SELECT `main_table`.* FROM `tabela_modelumeu` AS `main_table` WHERE (`modelumeu_id` > 3)
 
+2018-08-28T07:00:17+00:00 DEBUG (7): SELECT `main_table`.* FROM `tabela_modelumeu` AS `main_table` WHERE (`modelumeu_id` > 3)
+
